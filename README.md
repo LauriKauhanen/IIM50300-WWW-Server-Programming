@@ -7,6 +7,8 @@ List of all the packages and their function on this project
 ### Server-side
 These packages are also listed in package.json (Node.js dependencies) and composer.json (PHP dependencies).
 
+All the Laravel related configs are in ./config/ folder.
+
 *Node.js is installed just to get access to Laravel-Elixir.*
 
 **Laravel** *version 5.1.1*
@@ -17,10 +19,14 @@ These packages are also listed in package.json (Node.js dependencies) and compos
 
 > JSON Web Token authentication for Laravel & Lumen 
 
+> JWTs are saved to clientside by using ng-storage module.
+
 >  Why JWT?
   [**Cookies vs Tokens**](https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
 
 **Laravel-Elixir** *version 3.4.3*
+
+Laravel-Elixir config file is ./gulpfile.js
 
 > Laravel Elixir provides a clean, fluent API for defining basic Gulp tasks for your Laravel application.
 
@@ -41,7 +47,7 @@ These packages are also listed in package.json (Node.js dependencies) and compos
 
 **Bootstrap** *version 3.3.2*
 
-> Drag-n-drop package for responsivity (almost).
+> Drag-n-drop package for responsivity and UI (atleast almost).
 
 **jQuery** *version 1.11.2*
 
@@ -64,7 +70,7 @@ Models in the previous image are based on database tables as followed
 ![ER](http://i.imgur.com/mA9dGGs.png)
 
 
-Output from *php artisan routes:list* gives us cross-section of the application's internals as which controller method is responsible for which us and so on.
+Output from *php artisan routes:list* gives us cross-section of the application's internals, as which controller method is responsible for which us and so on.
 
     +--------+--------------------------------+------------------------------------+-------------------------+-------------------------------------------------------------+------------+
     | Domain | Method                         | URI                                | Name                    | Action                                                      | Middleware |
