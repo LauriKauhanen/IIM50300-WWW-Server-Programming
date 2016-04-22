@@ -1,4 +1,3 @@
-This repo is for IIM50300 course exercise
 # Budgeting Web application
 
 PHP-based web application using [Laravel framework](https://laravel.com/) and [AngularJS](https://angularjs.org/).
