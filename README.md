@@ -64,7 +64,7 @@ Models in the previous image are based on database tables as followed
 ![ER](http://i.imgur.com/mA9dGGs.png)
 
 
-Output from *php artisan routes:list* gives us cross-section of the application's internals.
+Output from *php artisan routes:list* gives us cross-section of the application's internals as which controller method is responsible for which us and so on.
 
     +--------+--------------------------------+------------------------------------+-------------------------+-------------------------------------------------------------+------------+
     | Domain | Method                         | URI                                | Name                    | Action                                                      | Middleware |
