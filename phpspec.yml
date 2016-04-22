@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: PanamaBudget
+        psr4_prefix: PanamaBudget
+        src_path: app
